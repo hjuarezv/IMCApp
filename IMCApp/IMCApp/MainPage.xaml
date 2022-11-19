@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMCApp.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="DeepSkyBlue"></Setter>
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+            </Style>
+            
+        </ResourceDictionary>        
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Frame BackgroundColor="{StaticResource colorApp}" 
+               Padding="24" CornerRadius="0">
+            <Label Text="IMC App" HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="Title"/>
+        </Frame>
+        <Label Text="El indice de masa corporal nos indica, por medio de una evaluacion facil y economica, utilizando una relacion entre el peso corporal de una persona y su estatura a que categoria de peso pertenece." 
+               FontSize="Default" 
+               Padding="30,10,30,10"/>
+        <Label Text="El IMC es un número que se calcula con base en el peso y la estatura de la persona." 
+               FontSize="Default" 
+               Padding="30,0,30,10"/>
+        <Image Source="@drawable/imc_imagen"/>
+        <Button Text="Calcula tu IMC" Clicked="Button_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>

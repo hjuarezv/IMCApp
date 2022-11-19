@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMCApp.CalcularIMCPage">
+        
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="{StaticResource colorApp}" 
+               Padding="24" CornerRadius="0">
+                <Label Text="Calcula tu IMC" HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="Title"/>
+            </Frame>
+            <Grid Padding="20, 10, 20, 10">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".4*"></ColumnDefinition>
+                    <ColumnDefinition Width=".6*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Text="Talla" Grid.Row="0" Grid.Column="0" 
+                       FontAttributes="Bold" VerticalOptions="Center"/>
+                <Label Text="Peso" Grid.Row="1" Grid.Column="0" 
+                       FontAttributes="Bold"  VerticalOptions="Center"/>
+                <Label Text="Resultado" Grid.Row="2" Grid.Column="0" 
+                       FontAttributes="Bold" VerticalOptions="Center" />
+                <Entry x:Name="txtTalla" Placeholder="Ingrese su Talla" 
+                       Keyboard="Numeric"
+                       Grid.Row="0" Grid.Column="1"/>
+                <Entry x:Name="txtPeso" Placeholder="Ingrese su Peso" 
+                       Keyboard="Numeric"
+                       Grid.Row="1" Grid.Column="1"/>
+                <Entry x:Name="txtResultado" Placeholder="" Grid.Row="2" Grid.Column="1"
+                       IsReadOnly="True" />
+            </Grid>
+            <Button Text="Calcular" HorizontalOptions="Center" WidthRequest="300"
+                    BackgroundColor="LightGreen"
+                    x:Name="btnCalcularIMC" Clicked="btnCalcularIMC_Clicked"
+                    />
+            <Image x:Name="imgResultado" Source="" IsVisible="False"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

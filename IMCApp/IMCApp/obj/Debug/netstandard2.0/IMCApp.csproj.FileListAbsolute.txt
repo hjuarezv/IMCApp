@@ -1,0 +1,16 @@
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\bin\Debug\netstandard2.0\IMCApp.deps.json
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\bin\Debug\netstandard2.0\IMCApp.dll
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\bin\Debug\netstandard2.0\ref\IMCApp.dll
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\bin\Debug\netstandard2.0\IMCApp.pdb
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.csproj.AssemblyReference.cache
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.AssemblyInfoInputs.cache
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.AssemblyInfo.cs
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.csproj.CoreCompileInputs.cache
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.dll
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\ref\IMCApp.dll
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\IMCApp.pdb
+C:\Users\Henry-PC\source\repos\IMCApp\IMCApp\IMCApp\obj\Debug\netstandard2.0\CalcularIMCPage.xaml.g.cs
